@@ -15,11 +15,11 @@ export default function Home() {
                     <div className="col-start-1 row-start-3 space-y-3 sm:px-0">
                         <p className="flex items-center text-black text-sm font-medium dark:text-gray mb-4">
                         Curabitur tempor justo non turpis malesuada cursus. Mauris ac libero eu sem finibus lacinia nec pulvinar.                        </p>
-                        <div className="text-left">
-                            <div className="inline-flex items-center"><span className="w-4 h-4 bg-lemon mr-2 rounded-md"></span>Curabitur tempor justo</div>
-                            <div className="inline-flex items-center"><span className="w-4 h-4 bg-lemon mr-2 rounded-md"></span>Curabitur tempor justo</div>
-                            <div className="inline-flex items-center"><span className="w-4 h-4 bg-lemon mr-2 rounded-md"></span>Curabitur tempor justo</div>
-                            <div className="inline-flex items-center"><span className="w-4 h-4 bg-lemon mr-2 rounded-md"></span>Curabitur tempor justo</div>
+                        <div className="txt-center md:text-left flex flex-col ">
+                            <div className="inline-flex items-center m-auto md:m-0"><span className="w-4 h-4 bg-lemon mr-2 rounded-md"></span>Curabitur tempor justo</div>
+                            <div className="inline-flex items-center m-auto md:m-0"><span className="w-4 h-4 bg-lemon mr-2 rounded-md"></span>Curabitur tempor justo</div>
+                            <div className="inline-flex items-center m-auto md:m-0"><span className="w-4 h-4 bg-lemon mr-2 rounded-md"></span>Curabitur tempor justo</div>
+                            <div className="inline-flex items-center m-auto md:m-0"><span className="w-4 h-4 bg-lemon mr-2 rounded-md"></span>Curabitur tempor justo</div>
                         </div>
                     </div>
                 </div>

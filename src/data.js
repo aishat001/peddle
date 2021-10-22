@@ -14,14 +14,14 @@ export const plans = [
           id: 2,
         title: "Standard Plan",
         subtitle: ["Mauris sem neque","Mauris sem neque", "Mauris sem neque", "Mauris sem neque", "Mauris sem neque"],
-        price:"$9",
+        price:"$9/mo",
         image: plan2,
       },
       {
           id: 3,
         title: "Premium Plan",
         subtitle: ["Mauris sem neque", "Mauris sem neque", "Mauris sem neque", "Mauris sem neque", "Mauris sem neque", "Mauris sem neque"],
-        price:"$12",
+        price:"$12/mog",
           image: plan3,
         },
 ]
