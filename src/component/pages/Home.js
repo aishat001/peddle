@@ -1,5 +1,8 @@
 import React from 'react';
 import ownerImage from '../assets/char.png'
+import user from '../assets/user.png'
+import user from '../assets/user.png'
+import user from '../assets/user.png'
 
 /* eslint-disable */
 
@@ -17,12 +20,22 @@ export default function Home() {
                         <p className="flex items-center text-black text-sm font-medium dark:text-gray mb-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac orci condimentum lectus efficitur tempor vel eu massa. Sed molestie turpis eget ipsum malesuada dignissim
                         </p>
-                        <button type="button" className="bg-lemon text-white font-semibold px-6 py-2 rounded-lg mr-3 dark:bg-white dark:text-dark w-9/12 md:w-3/6">Get Started</button>
+                        <button type="button" className="bg-lemon btn-shadow text-white font-semibold px-6 py-2 rounded-sm mr-3 dark:bg-white dark:text-dark w-60">Get Started</button>
                     </div>
                 </div>
 
 
                 <img src={ownerImage} alt="" className=" object-contain rounded-full m-auto w-full md:w-3/6" width="350px" height="400px" />
+            </div>
+
+            <div className="absolute w-8/12 bg-white">
+                <div>
+                    <img src={user} alt=""/>
+                    <div>
+                        <strong>90+</strong>
+                        <p>Users</p>
+                    </div>
+                </div>
             </div>
         </section>
     )

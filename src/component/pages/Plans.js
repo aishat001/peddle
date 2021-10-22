@@ -7,8 +7,8 @@ export default function Plans() {
     return (
         <section id="plans">
             <div className="pt-40 px-3 text-center mb-5">
-            <h2 className="text-2xl h-text-shadow text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 md:text-4xl w-80 text-center m-auto text-wrap">Choose Your Plan</h2>
-            <p className=" text-black text-sm font-medium dark:text-gray mb-4 w-80 text-center m-auto text-wrap">
+            <h2 className="text-2xl text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 md:text-4xl w-80 text-center m-auto text-wrap">Choose Your Plan</h2>
+            <p className=" text-black text-sm font-medium dark:text-gray mb-4 w-60 sm:w-80 text-center m-auto text-wrap">
             Let's choose the package that is best for you and explore it happily and cheerfully.                       </p>
             </div>
                             <div className="flex flex-col md:flex-row m-auto justify-center flex wrap " >

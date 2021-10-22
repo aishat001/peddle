@@ -1,4 +1,7 @@
 /* ./src/index.css */
+.w-80 {
+    width:27rem !important;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

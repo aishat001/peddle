@@ -8,7 +8,7 @@
   color: #BA55D3;
 }
 .bg-lemon {
-  background-color: #BA55D3;
+  background-color: rgb(186, 85, 211);
 }
 .peddle-shadow {
   color: #BA55D3;
@@ -16,4 +16,11 @@
 .h-text-shadow {
   text-shadow: 0px 2px 4px #BA55D3;
 
+}
+.btn-shadow {
+  box-shadow:
+-9px 20px 50px -13px rgba(186, 85, 211, 0.685);
+}
+.scrollBar::-webkit-scrollbar{
+  display: none;
 }
