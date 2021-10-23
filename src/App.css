@@ -24,3 +24,12 @@
 .scrollBar::-webkit-scrollbar{
   display: none;
 }
+.bg-footer {
+  background-color: #F8F8F8;
+}
+.margin-minus {
+  margin-top: -100px;
+}
+.div-shadow {
+  box-shadow: -6px -1px 67px -33px rgba(13, 16, 37, 0.55);left: 0px; right:0px
+}

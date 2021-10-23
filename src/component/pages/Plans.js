@@ -7,7 +7,7 @@ export default function Plans() {
     return (
         <section id="plans">
             <div className="pt-40 px-3 text-center mb-5">
-            <h2 className="text-2xl text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 md:text-4xl w-80 text-center m-auto text-wrap">Choose Your Plan</h2>
+            <h2 className="text-2xl text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 md:text-4xl sm:w-80 text-center m-auto text-wrap">Choose Your Plan</h2>
             <p className=" text-black text-sm font-medium dark:text-gray mb-4 w-60 sm:w-80 text-center m-auto text-wrap">
             Let's choose the package that is best for you and explore it happily and cheerfully.                       </p>
             </div>
@@ -16,7 +16,7 @@ export default function Plans() {
                         plans.map(p => {
                             return <div
                                 key={p.id}
-                                className=" bg-white sm:shadow-md sm:border border-gray-200 rounded-lg h-100 w-80 mb-10  md:mx-4 p-4 dark:bg-primary w-10/12 sm:w-7/12 md:w-2/5 lg:w-1/5 m-auto text-center"
+                                className=" bg-white sm:shadow-md sm:border border-gray-200 rounded-lg h-100 sm:w-80 mb-10  md:mx-4 p-4 dark:bg-primary w-10/12 sm:w-7/12 md:w-2/5 lg:w-1/5 m-auto text-center"
                             >
                                 <div className="w-10/12 m-auto h-40 p-5 mb-3 rounded-lg flex items-center bg-white bg-opacity-75 ">
                                 <img className=" h-full m-auto" src={p.image} alt="" width="200px"/>

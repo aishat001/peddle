@@ -58,8 +58,8 @@ export default function Customers() {
     return (
         <section id="customers">
                         <div className="pt-20 px-3 text-center mb-5">
-            <h2 className="text-2xl text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 md:text-4xl w-80 text-center m-auto text-wrap">Trusted by Thousands of Happy Customer</h2>
-            <p className=" text-black text-sm font-medium dark:text-gray mb-4 w-80 text-center m-auto text-wrap">
+            <h2 className="text-2xl text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 md:text-4xl sm:w-80 text-center m-auto text-wrap">Trusted by Thousands of Happy Customer</h2>
+            <p className=" text-black text-sm font-medium dark:text-gray mb-4 sm:w-80 text-center m-auto text-wrap">
             Nam laoreet cursus diam, sed tristique arcu semper non. Suspendisse et suscipit est, nec laoreet mi. Nunc pellentesque imperdiet ultricies.   </p>
 
             </div>

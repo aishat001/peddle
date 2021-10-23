@@ -1,18 +1,20 @@
 /* eslint-disable */
 import React from "react";
-// import {MenuAlt3Icon} from '@heroicons/react/solid';
+import peddleLogo from '../assets/PEDDLE.png'
+
 
 export default function Navbar() {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
-      <nav className="relative flex items-center justify-between px-5 md:px-40 py-3 mb-3 fixed bg-white dark:bg-primary">
+      <nav className="relative flex items-center justify-between px-5 md:px-20 py-3 mb-3 fixed bg-white dark:bg-primary">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-sm font-bold font-ranchers logo-color leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
               href="#home"
-            >PEDDLE </a>
+            >                    <img src={peddleLogo} alt="logo"/>
+            </a>
             <button
               className=" cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-dark rounded bg-dark block lg:hidden outline focus:outline-none"
               type="button"
@@ -26,7 +28,7 @@ export default function Navbar() {
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center" +
+              "flex-col items-start lg:flex-row lg:flex flex-grow lg:items-center" +
               (navbarOpen ? " flex" : " hidden")
             }
             id="example-navbar-danger"
