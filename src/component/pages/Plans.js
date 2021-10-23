@@ -28,11 +28,10 @@ export default function Plans() {
                                         p.subtitle.map(s => <div className="inline-flex m-auto"><img src={check} className="w-4 h-4 mr-4" alt="checkIcon"/>{s}</div>)
                                     }
                                 </div>
+                                
                                     <p className="font-normal text-bold text-3xl text-center p-0 dark:text-gray mt-2 sm:mt-8 mb-5" key={p.title}>{p.price}</p>
-                                    <button
-                  className="px-3 py-2 text-xs uppercase font-bold text-lemon leading-snug hover:opacity-75 btn-border-color border rounded-md w-40 text-center m-auto bg-btn-hover"
-                  href="#projects"
-                >Select</button>
+                                    <button type="button" className="border text-lemon btn-border-color font-semibold px-6 py-2 rounded-sm mr-3  w-40 bg-btn-hover">Select</button>
+
                                 </div>
  
 

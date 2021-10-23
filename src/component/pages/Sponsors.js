@@ -12,7 +12,7 @@ export default function Sponsors() {
             <h2 className="text-2xl text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 md:text-4xl sm:w-80 lg:w-6/12 text-center m-auto text-wrap">Get Started With Paddle Today</h2>
             <p className=" text-black text-sm font-medium dark:text-gray mb-4 sm:w-80 md:w-5/7 text-center m-auto text-wrap">
             Praesent mollis lobortis nisl nec laoreet. Duis euismod nisl nec ante egestas ullamcorper                     </p>
-            <button type="button" className="bg-lemon btn-shadow text-white font-semibold px-6 py-2 rounded-sm mr-3 dark:bg-white dark:text-dark w-40">Get Started</button>
+            <button type="button" className="bg-lemon btn-shadow text-white font-semibold px-6 py-2 rounded-sm mr-3 dark:bg-white dark:text-dark w-40">Start Today</button>
 
             </div>
             <div className="flex flex-col md:flex-row flex-wrap w-9/12 justify-center items-center mx-auto mt-10">
