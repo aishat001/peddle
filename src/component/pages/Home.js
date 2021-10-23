@@ -3,6 +3,8 @@ import ownerImage from '../assets/char.png'
 import user from '../assets/user.png'
 import location from '../assets/location.png'
 import serrver from '../assets/Server.png'
+import 'animate.css';
+
 
 /* eslint-disable */
 
@@ -11,9 +13,9 @@ export default function Home() {
 
     return (
         <section id="home">
-            <div className="flex flex-col-reverse md:flex-row px-10 sm:px-8  md:px-20 lg:px-40 sm:py-12 sm:gap-x-8 md:py-16 text-center md:text-left">
+            <div className="flex flex-col-reverse md:flex-row px-10 sm:px-8  md:px-20 lg:px-40 sm:py-12 sm:gap-x-8 md:py-16 text-center md:text-left animate__fadeInDown">
                 <div className="relative z-10 pt-10 md:pt-20 pb-3 w-full md:w-3/6">
-                    <h2 className="text-xl h-text-shadow text-black font-semibold  sm:text-2xl sm:leading-7 mb-4 md:text-3xl">We Are Everything We
+                    <h2 className="text-xl h-text-shadow text-black font-semibold lg:w-80 sm:text-2xl sm:leading-7 mb-4 md:text-3xl">We Are Everything We
                         Aspire To BE</h2>
                     <div className="absolute bg-1"></div>
                     <div className="col-start-1 row-start-3 space-y-3 sm:px-0">
@@ -25,7 +27,7 @@ export default function Home() {
                 </div>
 
 
-                <img src={ownerImage} alt="" className=" object-contain rounded-full m-auto w-full md:w-3/6" width="350px" height="400px" />
+                <img src={ownerImage} alt="" className=" object-contain rounded-full m-auto w-full md:w-3/6 animate__fadeInRight" width="350px" height="400px" />
             </div>
 
             <div className=" w-10/12 py-20 h-96 md:h-auto m-auto bg-white flex justify-center flex-row flex-wrap div-shadow rounded-lg mt-20">

@@ -8,7 +8,7 @@
   color: #BA55D3;
 }
 .bg-lemon {
-  background-color: rgb(186, 85, 211);
+  background-color: #ba55d3;
 }
 .peddle-shadow {
   color: #BA55D3;
@@ -33,3 +33,11 @@
 .div-shadow {
   box-shadow: -6px -1px 67px -33px rgba(13, 16, 37, 0.55);left: 0px; right:0px
 }
+.bg-hover:hover {
+  border: 2px solid #BA55D3;
+}
+.bg-btn-hover:hover {
+  color: white;
+  background-color: #ba55d3;
+  box-shadow:
+  -9px 20px 50px -13px rgb(186 85 211 / 69%);}

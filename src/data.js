@@ -24,7 +24,7 @@ export const plans = [
           id: 3,
         title: "Premium Plan",
         subtitle: ["Mauris sem neque", "Mauris sem neque", "Mauris sem neque", "Mauris sem neque", "Mauris sem neque", "Mauris sem neque"],
-        price:"$12/mog",
+        price:"$12/mo",
           image: plan3,
         },
 ]

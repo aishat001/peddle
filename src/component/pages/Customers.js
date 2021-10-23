@@ -58,8 +58,8 @@ export default function Customers() {
     return (
         <section id="customers">
                         <div className="pt-20 px-3 text-center mb-5">
-            <h2 className="text-2xl text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 md:text-4xl sm:w-80 text-center m-auto text-wrap">Trusted by Thousands of Happy Customer</h2>
-            <p className=" text-black text-sm font-medium dark:text-gray mb-4 sm:w-80 text-center m-auto text-wrap">
+            <h2 className="text-2xl text-black font-semibold  sm:text-3xl sm:leading-7 mb-4 sm:w-80 lg:w-5/12 text-center m-auto text-wrap">Trusted by Thousands of Happy Customer</h2>
+            <p className=" text-black text-sm font-medium dark:text-gray  sm:w-80 text-center mx-auto mb-10 text-wrap">
             Nam laoreet cursus diam, sed tristique arcu semper non. Suspendisse et suscipit est, nec laoreet mi. Nunc pellentesque imperdiet ultricies.   </p>
 
             </div>
@@ -72,7 +72,7 @@ export default function Customers() {
                         customers.map(customer => {
                             return <div
                                 key={customer.id}
-                                className=" bg-white shadow-md border border-gray-200 rounded-lg  w-80 mb-5 mx-4 p-4 dark:bg-primary"
+                                className=" bg-white shadow-md border border-gray-200 rounded-lg  w-80 mb-5 mx-4 p-4 dark:bg-primary bg-hover"
                             >
                                 <div className="w-12/12 m-auto p-5 mb-3 rounded-lg flex items-center bg-white bg-opacity-75 inline-flex  w-full">
                                 <img className="w-10 h-10 mr-3" src={customer.image} alt="" />
@@ -80,7 +80,7 @@ export default function Customers() {
                                     <h2>{customer.name}</h2>
                                     <h2>{customer.location}</h2>
                                 </div>
-                                <div className="ml-auto">
+                                <div className="ml-auto inline-flex">
                                     {customer.rating}<img src={rating} className="w-6 h-6" alt="rating star"/>
                                 </div>
                                 </div>
