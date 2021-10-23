@@ -2,7 +2,8 @@
   color: #BA55D3;
 }
 .btn-border-color {
-  border-color: #BA55D3;
+  /* border-color: #BA55D3; */
+  border: 2px solid #BA55D3 ;
 }
 .text-lemon {
   color: #BA55D3;
@@ -41,3 +42,12 @@
   background-color: #ba55d3;
   box-shadow:
   -9px 20px 50px -13px rgb(186 85 211 / 69%);}
+
+  .btn-hover:hover {
+    background-color: transparent;
+    border: 2px solid #BA55D3;
+    color: #BA55D3;
+  }
+  .arrow-pointer:hover {
+    opacity: .8;
+  }

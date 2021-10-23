@@ -96,12 +96,8 @@ export default function Customers() {
             </div>
             <div className="flex flex-col justify-between sm:flex-row w-9/12 m-auto mb-3">
                 <div className="flex justify-center sm:justify-between p-5 md:ml-auto">
-                    <button className="border mr-2 p-2 btn-border-color rounded-full" onClick={() => slide(-50)}>
-                        <ArrowNarrowLeftIcon className="w-8 h-8 text-lemon" />
-                    </button>
-                    <button className="border p-2 btn-border-color rounded-full bg-lemon" onClick={() => slide(+50)}>
-                        <ArrowNarrowRightIcon className="w-8 h-8 text-white" />
-                    </button>
+                        <ArrowNarrowLeftIcon className="w-10 h-10 text-lemon border mr-2 p-2 btn-border-color rounded-full cursor-pointer arrow-pointer" onClick={() => slide(-50)}/>
+                        <ArrowNarrowRightIcon className="w-10 h-10 text-white border p-2 btn-border-color rounded-full bg-lemon cursor-pointer arrow-pointer" onClick={() => slide(+50)}/>
                 </div>
 
             </div>

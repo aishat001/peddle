@@ -11,7 +11,7 @@ export default function Footer() {
                     Praesent mollis lobortis nisl nec laoreet.</p>
 
                 </div>
-                <button type="button" className="bg-lemon btn-shadow text-white font-semibold px-6 py-2 rounded-sm mr-3 dark:bg-white dark:text-dark w-40 h-10">Subscribe Now</button>
+                <button type="button" className="bg-lemon btn-shadow text-white font-semibold px-6 py-2 rounded-sm mr-3 btn-hover  h-10">Subscribe Now</button>
 
             </div>
                 <div className="h-40 bg-footer w-full">

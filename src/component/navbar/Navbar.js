@@ -61,10 +61,7 @@ export default function Navbar() {
                 >Sign-in</a>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold text-lemon leading-snug hover:opacity-75 btn-border-color border rounded-md"
-                  href="#projects"
-                >Sign up</a>
+              <button type="button" className="border text-lemon btn-border-color font-semibold px-6 py-2 rounded-sm mr-3  bg-btn-hover">Sign Up</button>
               </li>
 
             </ul>
