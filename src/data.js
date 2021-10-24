@@ -60,7 +60,7 @@ export const customers = [
           image: customer3,
         },
     {
-        id: 1,
+        id: 4,
         name: "Viezh Robert",
         location: "Warsaw, Poland",
         rating: "4.5",
@@ -70,7 +70,7 @@ export const customers = [
           image: customer1,
         },
     {
-        id: 2,
+        id: 5,
         name: "Yessica Christy",
         location: "Shanxi, China",
         rating: "4.5",
@@ -80,7 +80,7 @@ export const customers = [
           image: customer2,
         },
     {
-        id: 3,
+        id: 6,
         name: "Kim Young Jou",
         location: "Seoul, South Korea",
         rating: "4.5",
